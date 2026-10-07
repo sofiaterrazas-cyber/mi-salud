@@ -50,6 +50,7 @@ export default function ChatSheet({ visible, onClose }: Props) {
               <Ionicons name="close" size={24} color={colors.text} />
             </Pressable>
           </View>
+
           <ScrollView
             style={styles.messages}
             contentContainerStyle={styles.messagesContent}
@@ -65,6 +66,7 @@ export default function ChatSheet({ visible, onClose }: Props) {
               </View>
             ))}
           </ScrollView>
+
           <View style={styles.inputRow}>
             <TextInput
               style={styles.input}
